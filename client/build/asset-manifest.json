@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a90b07d0.css",
+    "main.js": "/static/js/main.242665a2.js",
+    "static/media/clipart121739.png": "/static/media/clipart121739.2dabc71fd66825118830.png",
+    "static/media/popcorn-3.png": "/static/media/popcorn-3.128b0218d090d8c14432.png",
+    "static/media/new-years-movies-index-1640368473.jpg": "/static/media/new-years-movies-index-1640368473.ba1006df8580ab4ae55a.jpg",
+    "static/media/clipart1159371.png": "/static/media/clipart1159371.a844557f244b67ed7aaa.png",
+    "static/media/clipart117136.png": "/static/media/clipart117136.3de493596cc79a7f381c.png",
+    "static/media/clipart4311983.png": "/static/media/clipart4311983.2cc97437db8e9c29af74.png",
+    "static/media/clipart4587281.png": "/static/media/clipart4587281.8efbec2889c706db93a2.png",
+    "static/media/clipart2894738.png": "/static/media/clipart2894738.ec64dd9d6b101e68af15.png",
+    "static/media/clipart4443755.png": "/static/media/clipart4443755.2c42c7f4c4b302c622af.png",
+    "static/media/clipart1306014.png": "/static/media/clipart1306014.ba1e07f7edac9de22571.png",
+    "static/media/clipart701853.png": "/static/media/clipart701853.859c7dd69cd3f825a1a8.png",
+    "static/media/clipart3338721.png": "/static/media/clipart3338721.984e1cc536623cfa9646.png",
+    "static/media/clipart4214610.png": "/static/media/clipart4214610.17bdd26249766a564ea1.png",
+    "static/media/clipart805641.png": "/static/media/clipart805641.c4d4d8b166776a31157a.png",
+    "static/media/clipart1078766.png": "/static/media/clipart1078766.1b08d616693bf7f81d74.png",
+    "static/media/clipart2374865.png": "/static/media/clipart2374865.559e7e623aadd089a67a.png",
+    "static/media/clipart121753.png": "/static/media/clipart121753.c351f6c4b85f105e2afe.png",
+    "static/media/clipart1977310.png": "/static/media/clipart1977310.361846043f877a1e681c.png",
+    "static/media/clipart1551381.png": "/static/media/clipart1551381.6025fcef45ce8b342cb0.png",
+    "static/media/clipart2701605.png": "/static/media/clipart2701605.8412531f629342c966fc.png",
+    "static/media/clipart340525.png": "/static/media/clipart340525.2297b6ab4b7060fe0c9d.png",
+    "static/media/clipart1612357.png": "/static/media/clipart1612357.b384f5cbe03b799e95e8.png",
+    "static/media/clipart4460733.png": "/static/media/clipart4460733.5233dca7420de4a64449.png",
+    "static/media/clipart1159382.png": "/static/media/clipart1159382.b852c83c1e9c40a3ac92.png",
+    "static/media/film-strip-vector-free.png": "/static/media/film-strip-vector-free.2ee4972e43d9253cd0fd.png",
+    "static/media/clipart117123.png": "/static/media/clipart117123.d17a98d53fee1e9d52fb.png",
+    "index.html": "/index.html",
+    "static/media/heart-regular.svg": "/static/media/heart-regular.f358882fac0d14d48e2823e07fe31016.svg",
+    "static/media/heart-solid.svg": "/static/media/heart-solid.70b72c45739e60e9fb16359db455a441.svg",
+    "main.a90b07d0.css.map": "/static/css/main.a90b07d0.css.map",
+    "main.242665a2.js.map": "/static/js/main.242665a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a90b07d0.css",
+    "static/js/main.242665a2.js"
+  ]
+}

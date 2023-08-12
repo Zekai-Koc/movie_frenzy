@@ -1,0 +1,81 @@
+.list-item-single-movie {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 5px;
+}
+
+.container-movie-props {
+   width: 75%;
+   display: flex;
+   cursor: pointer;
+}
+
+.poster {
+   width: 15%;
+   transition: transform 0.7s ease;
+}
+
+.poster:hover {
+   transform: scale(5);
+}
+.container-movie-name-price {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0;
+   margin: 0 10px;
+   width: 200px;
+}
+
+.list-item-single-movie h3 {
+   margin: 0 0 0.25rem 0;
+   text-align: center;
+}
+
+.price {
+   margin-top: 0.25rem;
+   font-weight: bold;
+   color: #ad5502;
+   font-size: 1.25rem;
+}
+
+.description {
+   font-style: italic;
+   padding: 20px;
+}
+
+.container-add-movie-amount-form {
+   width: 15%;
+   display: flex;
+   align-items: center;
+}
+
+.container-favorite-image {
+   height: 95px;
+   margin-left: auto;
+}
+
+.image-heart-solid {
+   width: 25px;
+   cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+   .list-item-single-movie .description {
+      display: none;
+   }
+}
+
+@media (max-width: 800px) {
+   .poster {
+      display: none;
+   }
+}
+
+@media (max-width: 600px) {
+   .list-item-single-movie .description {
+      display: none;
+   }
+}

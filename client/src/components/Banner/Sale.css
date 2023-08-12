@@ -1,0 +1,35 @@
+.container-sale {
+   position: relative;
+   width: 100%;
+   margin-bottom: 20px;
+   cursor: pointer;
+   background-color: #fff;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 12px rgba(0, 0, 0, 0.05);
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+.banner-image {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.sale-image {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 110px;
+   height: auto;
+}
+
+.total-discount {
+   margin: 0;
+   text-align: center;
+}
+
+@media (max-width: 800px) {
+   .sale-image {
+      width: 200px;
+   }
+}

@@ -1,0 +1,43 @@
+.container-banner {
+   padding: 5px;
+   background-color: cadetblue;
+   border-radius: 10px;
+   position: relative;
+   overflow: hidden;
+}
+
+.heading-todays-offers {
+   font-family: cursive;
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin: 0;
+   padding: 10px;
+   position: relative;
+   color: brown;
+}
+
+.heading-todays-offers::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -50%;
+   width: 200%;
+   height: 100%;
+   background: linear-gradient(
+      135deg,
+      rgba(236, 8, 8, 0.4) 0%,
+      transparent 50%,
+      rgba(51, 249, 6, 0.4) 100%
+   );
+   animation: shine 2s infinite;
+}
+
+@keyframes shine {
+   0% {
+      transform: translateX(-150%);
+   }
+   100% {
+      transform: translateX(150%);
+   }
+}

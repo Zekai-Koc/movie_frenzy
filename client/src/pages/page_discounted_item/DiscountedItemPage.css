@@ -1,0 +1,28 @@
+.container-discount {
+   margin-top: 100px;
+}
+
+.container-saledata {
+   display: flex;
+   justify-content: center;
+}
+
+.container-saledata-image {
+   width: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 25px;
+}
+
+.saledata-image {
+   max-width: 100%;
+   height: auto;
+}
+
+.addtocart-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 50px;
+}
