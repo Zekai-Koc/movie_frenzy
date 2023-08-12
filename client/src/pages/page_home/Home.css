@@ -24,12 +24,12 @@
    }
 
    .container-main--left {
-      order: 1;
+      order: 2;
       width: 100%;
    }
 
    .container-main--right {
-      order: 2;
+      order: 1;
       width: 100%;
    }
 }

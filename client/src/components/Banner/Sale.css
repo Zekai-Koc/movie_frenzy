@@ -23,13 +23,37 @@
    height: auto;
 }
 
-.total-discount {
+.heading-total-discount {
    margin: 0;
    text-align: center;
 }
 
+@media (max-width: 900px) {
+   .sale-image {
+      width: 60px;
+   }
+
+   .heading-total-discount {
+      font-size: 16px;
+   }
+}
+
 @media (max-width: 800px) {
    .sale-image {
-      width: 200px;
+      width: 40px;
+   }
+
+   .heading-total-discount {
+      font-size: 12px;
+   }
+}
+
+@media (max-width: 700px) {
+   .sale-image {
+      width: 100px;
+   }
+
+   .heading-total-discount {
+      font-size: 24px;
    }
 }

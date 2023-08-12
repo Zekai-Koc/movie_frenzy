@@ -40,8 +40,8 @@ const SingleMovie = (props) => {
          <div className="container-movie-props" onClick={handleClick}>
             <img className="poster" src={props.poster} alt={props.name} />
             <div className="container-movie-name-price">
-               <h3>{props.name}</h3>
-               <div className="price">{price}</div>
+               <h3 className="movie-name">{props.name}</h3>
+               <div className="movie-price">{price}</div>
             </div>
             <div className="description">{props.description}</div>
          </div>
@@ -53,14 +53,14 @@ const SingleMovie = (props) => {
                <img
                   src={heartSolid}
                   alt="heart favorite"
-                  className="image-heart-solid"
+                  className="image-heart"
                   onClick={handleFavoriteClick}
                />
             ) : (
                <img
                   src={heartRegular}
                   alt="heart favorite"
-                  className="image-heart-solid"
+                  className="image-heart"
                   onClick={handleFavoriteClick}
                />
             )}

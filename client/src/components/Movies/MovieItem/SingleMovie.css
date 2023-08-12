@@ -3,22 +3,25 @@
    align-items: center;
    border-bottom: 1px solid #ccc;
    margin-bottom: 5px;
+   /* border: 1px solid red; */
 }
 
 .container-movie-props {
-   width: 75%;
+   width: 80%;
    display: flex;
    cursor: pointer;
+   /* border: 1px solid blue; */
 }
 
 .poster {
-   width: 15%;
+   width: 100px;
    transition: transform 0.7s ease;
 }
 
 .poster:hover {
    transform: scale(5);
 }
+
 .container-movie-name-price {
    display: flex;
    flex-direction: column;
@@ -26,16 +29,25 @@
    justify-content: center;
    padding: 0;
    margin: 0 10px;
-   width: 200px;
+   /* border: 1px solid yellow; */
 }
 
-.list-item-single-movie h3 {
+/* .list-item-single-movie h3 {
    margin: 0 0 0.25rem 0;
    text-align: center;
+} */
+
+.movie-name {
+   font-style: italic;
+   text-align: center;
+   width: 200px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
 }
 
-.price {
-   margin-top: 0.25rem;
+.movie-price {
+   margin-top: 0.3rem;
    font-weight: bold;
    color: #ad5502;
    font-size: 1.25rem;
@@ -44,27 +56,55 @@
 .description {
    font-style: italic;
    padding: 20px;
+   max-height: 7em;
+   overflow: hidden;
 }
 
 .container-add-movie-amount-form {
-   width: 15%;
+   width: 150px;
    display: flex;
    align-items: center;
-}
-
-.container-favorite-image {
-   height: 95px;
+   justify-content: center;
+   /* border: 3px solid greenyellow; */
    margin-left: auto;
 }
 
-.image-heart-solid {
+.container-favorite-image {
+   height: 110px;
+   margin-left: auto;
+   /* border: 3px solid greenyellow; */
+}
+
+.image-heart {
    width: 25px;
    cursor: pointer;
+   margin-left: 5px;
+}
+
+@media (max-width: 1200px) {
+   .container-movie-props {
+      width: 95%;
+   }
+}
+
+@media (max-width: 1100px) {
+   .container-movie-props {
+      width: 90%;
+   }
 }
 
 @media (max-width: 1000px) {
    .list-item-single-movie .description {
       display: none;
+   }
+
+   .movie-name {
+      font-style: initial;
+      text-align: initial;
+      width: initial;
+      overflow: initial;
+      text-overflow: initial;
+      white-space: initial;
    }
 }
 

@@ -63,9 +63,9 @@ const MovieList = () => {
                   name={
                      movie.original_title.length < 15
                         ? movie.original_title
-                        : movie.original_title.slice(0, 19) + "..."
+                        : movie.original_title
                   }
-                  description={movie.overview.slice(0, 100) + "..."}
+                  description={movie.overview}
                   price={movie.vote_average}
                   poster={baseImgUrlTMDB + movie.poster_path}
                   release={movie.release_date}

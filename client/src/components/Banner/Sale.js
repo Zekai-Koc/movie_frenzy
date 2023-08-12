@@ -28,7 +28,7 @@ const Sale = (props) => {
                alt="total sale"
             />
          </div>
-         <h3 className="total-discount">
+         <h3 className="heading-total-discount">
             Total Discount: %${`${props.singleObj.saleData.totalSale}`}
          </h3>
       </div>
