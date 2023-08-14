@@ -27,7 +27,6 @@ test("renders App component", () => {
       </BrowserRouter>
    );
 
-   // Replace "Home" with the text you expect to find in your Home component
    const homeElement = screen.getByText("Home");
    expect(homeElement).toBeInTheDocument();
 });

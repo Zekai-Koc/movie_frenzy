@@ -49,7 +49,6 @@ const Details = () => {
       );
    }
 
-   console.log(data);
    const {
       title,
       poster_path,

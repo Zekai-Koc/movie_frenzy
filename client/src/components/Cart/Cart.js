@@ -4,15 +4,17 @@ import Modal from "../UI/Modal";
 import CartItem from "./CartItem";
 import "./Cart.css";
 import { useCartItems } from "../../store/CartContext";
+import { useNavigate } from "react-router-dom";
 
 const Cart = (props) => {
-   const { cartItems555, totalPrice } = useCartItems();
+   const { cartItems, totalPrice } = useCartItems();
+   const navigate = useNavigate();
 
-   const hasItems = cartItems555.length > 0;
+   const hasItems = cartItems.length > 0;
 
-   const cartItems = (
+   const cartItemsToDisplay = (
       <ul className="cart-items">
-         {cartItems555.map((item) => (
+         {cartItems.map((item) => (
             <CartItem
                key={item.id}
                id={item.id}
@@ -26,9 +28,13 @@ const Cart = (props) => {
       </ul>
    );
 
+   const handleOrder = () => {
+      navigate("/order");
+   };
+
    return (
       <Modal onClose={props.onClose}>
-         {cartItems}
+         {cartItemsToDisplay}
          <div className="total">
             <span>Total Price</span>
             <span>{totalPrice ? "$" + totalPrice.toFixed(2) : "$0.00"}</span>
@@ -37,7 +43,11 @@ const Cart = (props) => {
             <button className="button--alt" onClick={props.onClose}>
                Close
             </button>
-            {hasItems && <button className="button">Order</button>}
+            {hasItems && (
+               <button className="button" onClick={handleOrder}>
+                  Order
+               </button>
+            )}
          </div>
       </Modal>
    );
