@@ -7,7 +7,7 @@ export function useCartItems() {
 }
 
 export function CartItemsProvider({ children }) {
-   const [cartItems555, setCartItems] = useState([]);
+   const [cartItems, setCartItems] = useState([]);
    const [totalPrice, setTotalPrice] = useState("");
 
    const calculateTotalPrice = (items) => {
@@ -51,13 +51,13 @@ export function CartItemsProvider({ children }) {
    };
 
    const addCartItem = (item) => {
-      const updatedCartItems = cartUtil(cartItems555, item, "ADD");
+      const updatedCartItems = cartUtil(cartItems, item, "ADD");
       setCartItems(updatedCartItems);
       calculateTotalPrice(updatedCartItems);
    };
 
    const removeCartItem = (item) => {
-      const updatedCartItems = cartUtil(cartItems555, item, "REMOVE");
+      const updatedCartItems = cartUtil(cartItems, item, "REMOVE");
       setCartItems(updatedCartItems);
       calculateTotalPrice(updatedCartItems);
    };
@@ -65,7 +65,7 @@ export function CartItemsProvider({ children }) {
    return (
       <CartContext.Provider
          value={{
-            cartItems555,
+            cartItems,
             totalPrice,
             addCartItem,
             removeCartItem,

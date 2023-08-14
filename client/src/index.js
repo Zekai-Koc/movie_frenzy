@@ -7,7 +7,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { FavoritesProvider } from "./store/FavoritesContext";
-import { CartItemsProvider } from "./store/CartContex";
+import { CartItemsProvider } from "./store/CartContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

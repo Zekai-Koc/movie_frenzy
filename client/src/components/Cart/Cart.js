@@ -3,7 +3,7 @@ import React from "react";
 import Modal from "../UI/Modal";
 import CartItem from "./CartItem";
 import "./Cart.css";
-import { useCartItems } from "../../store/CartContex";
+import { useCartItems } from "../../store/CartContext";
 
 const Cart = (props) => {
    const { cartItems555, totalPrice } = useCartItems();

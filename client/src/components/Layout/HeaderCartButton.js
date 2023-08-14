@@ -2,19 +2,19 @@ import React, { useEffect, useState } from "react";
 
 import CartIcon from "../Cart/CartIcon";
 import "./HeaderCartButton.css";
-import { useCartItems } from "../../store/CartContex";
+import { useCartItems } from "../../store/CartContext";
 
 const HeaderCartButton = (props) => {
-   const { cartItems555 } = useCartItems();
+   const { cartItems } = useCartItems();
 
    const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
 
-   const numberOfCartItems = cartItems555.length;
+   const numberOfCartItems = cartItems.length;
 
    const btnClasses = `button ${btnIsHighlighted ? "bump" : ""}`;
 
    useEffect(() => {
-      if (cartItems555.length === 0) {
+      if (cartItems.length === 0) {
          return;
       }
       setBtnIsHighlighted(true);
@@ -26,7 +26,7 @@ const HeaderCartButton = (props) => {
       return () => {
          clearTimeout(timer);
       };
-   }, [cartItems555]);
+   }, [cartItems]);
 
    return (
       <button className={btnClasses} onClick={props.onClick}>

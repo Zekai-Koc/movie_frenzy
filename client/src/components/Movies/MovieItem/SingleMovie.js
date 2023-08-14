@@ -5,7 +5,7 @@ import "./SingleMovie.css";
 import heartRegular from "../../../assets/favorite_images/heart-regular.svg";
 import heartSolid from "../../../assets/favorite_images/heart-solid.svg";
 import { useFavorites } from "../../../store/FavoritesContext";
-import { useCartItems } from "../../../store/CartContex";
+import { useCartItems } from "../../../store/CartContext";
 
 const SingleMovie = (props) => {
    const { addFavorite, removeFavorite, isFavorite } = useFavorites();

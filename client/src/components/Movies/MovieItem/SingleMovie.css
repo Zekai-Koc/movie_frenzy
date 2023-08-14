@@ -3,14 +3,12 @@
    align-items: center;
    border-bottom: 1px solid #ccc;
    margin-bottom: 5px;
-   /* border: 1px solid red; */
 }
 
 .container-movie-props {
    width: 80%;
    display: flex;
    cursor: pointer;
-   /* border: 1px solid blue; */
 }
 
 .poster {
@@ -29,13 +27,7 @@
    justify-content: center;
    padding: 0;
    margin: 0 10px;
-   /* border: 1px solid yellow; */
 }
-
-/* .list-item-single-movie h3 {
-   margin: 0 0 0.25rem 0;
-   text-align: center;
-} */
 
 .movie-name {
    font-style: italic;
@@ -65,14 +57,12 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   /* border: 3px solid greenyellow; */
    margin-left: auto;
 }
 
 .container-favorite-image {
    height: 110px;
    margin-left: auto;
-   /* border: 3px solid greenyellow; */
 }
 
 .image-heart {

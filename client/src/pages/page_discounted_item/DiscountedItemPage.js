@@ -4,7 +4,7 @@ import "./DiscountedItemPage.css";
 import AddMovieAmountForm from "../../components/Movies/MovieItem/AddMovieAmountForm";
 import Header from "../../components/Layout/Header";
 import Cart from "../../components/Cart/Cart";
-import { useCartItems } from "../../store/CartContex";
+import { useCartItems } from "../../store/CartContext";
 
 const DiscountedItem = () => {
    const location = useLocation();

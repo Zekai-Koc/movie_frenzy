@@ -1,6 +1,6 @@
 import React from "react";
 import "./CartItem.css";
-import { useCartItems } from "../../store/CartContex";
+import { useCartItems } from "../../store/CartContext";
 
 const CartItem = (props) => {
    const { addCartItem, removeCartItem } = useCartItems();
