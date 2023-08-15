@@ -1,8 +1,8 @@
-.container-movie-search {
+.container-movie-search-form {
+   width: 100%;
    display: flex;
    align-items: center;
-   justify-content: right;
-   /* border: 1px solid red; */
+   justify-content: flex-end;
 }
 
 .container-movie-search-input {
@@ -11,6 +11,7 @@
    border: 1px solid #ccc;
    border-radius: 4px;
    margin: 0 5px;
+   width: 30%;
 }
 
 .container-movie-search-button {
@@ -21,55 +22,38 @@
    border: none;
    border-radius: 4px;
    cursor: pointer;
-   margin-right: 10px;
+   margin-right: 5px;
 }
 
-/* .container-movie-search h3 {
-   margin: 0;
-   padding: 0;
-} */
-
 @media (max-width: 900px) {
-   .container-movie-search input {
+   .container-movie-search-input {
       font-size: 16px;
       padding: 5px;
       margin-right: 5px;
    }
 
-   .container-movie-search button {
+   .container-movie-search-button {
       font-size: 16px;
       padding: 5px;
-   }
-
-   .container-movie-search h3 {
-      font-size: 16px;
    }
 }
 
 @media (max-width: 800px) {
-   .container-movie-search input {
+   .container-movie-search-input {
       font-size: 18px;
    }
 
-   .container-movie-search button {
-      font-size: 18px;
-   }
-
-   .container-movie-search h3 {
+   .container-movie-search-button {
       font-size: 18px;
    }
 }
 
 @media (max-width: 550px) {
-   .container-movie-search input {
+   .container-movie-search-input {
       font-size: 14px;
    }
 
-   .container-movie-search button {
-      font-size: 14px;
-   }
-
-   .container-movie-search h3 {
+   .container-movie-search-button {
       font-size: 14px;
    }
 }

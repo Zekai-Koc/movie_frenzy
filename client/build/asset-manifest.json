@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a90b07d0.css",
-    "main.js": "/static/js/main.242665a2.js",
+    "main.css": "/static/css/main.f4ec6142.css",
+    "main.js": "/static/js/main.9b0f6a66.js",
     "static/media/clipart121739.png": "/static/media/clipart121739.2dabc71fd66825118830.png",
     "static/media/popcorn-3.png": "/static/media/popcorn-3.128b0218d090d8c14432.png",
     "static/media/new-years-movies-index-1640368473.jpg": "/static/media/new-years-movies-index-1640368473.ba1006df8580ab4ae55a.jpg",
@@ -31,11 +31,11 @@
     "index.html": "/index.html",
     "static/media/heart-regular.svg": "/static/media/heart-regular.f358882fac0d14d48e2823e07fe31016.svg",
     "static/media/heart-solid.svg": "/static/media/heart-solid.70b72c45739e60e9fb16359db455a441.svg",
-    "main.a90b07d0.css.map": "/static/css/main.a90b07d0.css.map",
-    "main.242665a2.js.map": "/static/js/main.242665a2.js.map"
+    "main.f4ec6142.css.map": "/static/css/main.f4ec6142.css.map",
+    "main.9b0f6a66.js.map": "/static/js/main.9b0f6a66.js.map"
   },
   "entrypoints": [
-    "static/css/main.a90b07d0.css",
-    "static/js/main.242665a2.js"
+    "static/css/main.f4ec6142.css",
+    "static/js/main.9b0f6a66.js"
   ]
 }

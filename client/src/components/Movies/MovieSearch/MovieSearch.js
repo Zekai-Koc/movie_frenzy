@@ -21,7 +21,10 @@ const MovieSearch = () => {
          className="container-movie-search"
          data-testid="search-context-value"
       >
-         <form onSubmit={onSubmitHandler}>
+         <form
+            onSubmit={onSubmitHandler}
+            className="container-movie-search-form"
+         >
             <input
                className="container-movie-search-input"
                placeholder="Movie Name..."

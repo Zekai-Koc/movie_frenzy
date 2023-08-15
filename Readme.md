@@ -1,6 +1,6 @@
 # Movie Frenzy - Unlock a World of Movies
 
-Welcome to **Movie Frenzy**, a captivating application developed for the HackYourFuture React Assignment. Experience a cinematic adventure like never before. To witness the magic firsthand, you can explore the live version deployed on the Netlify server at the following link: [Live Version](link).
+Welcome to **Movie Frenzy**, a captivating application developed for the HackYourFuture React Assignment. Experience a cinematic adventure like never before. To witness the magic firsthand, you can explore the live version deployed on the Netlify server at the following link: [Live Version](https://64db327de4f0ac382d2cd63a--moviefrenzy.netlify.app/).
 
 ## Modules at a Glance
 
