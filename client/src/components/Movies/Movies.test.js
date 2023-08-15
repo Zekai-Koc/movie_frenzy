@@ -1,8 +1,9 @@
 import React from "react";
 import Movies from "./Movies";
 import "@testing-library/jest-dom/extend-expect";
-import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { act } from "react-dom/test-utils";
 
 describe("TEST-1: check if the Movies.test.j file configured correctly.", () => {
    it("true is truthy", () => {
@@ -59,8 +60,12 @@ describe("TEST-5: find button and trigger event", () => {
       const searchButton = screen.getByRole("button");
       expect(searchButton).toBeInTheDocument();
 
-      // fireEvent.change(searchInput, { target: { value: "Avangers" } });
+      act(() => {
+         fireEvent.change(searchInput, { target: { value: "Avengers" } });
+      });
 
-      // userEvent.click(searchButton);
+      act(() => {
+         userEvent.click(searchButton);
+      });
    });
 });
