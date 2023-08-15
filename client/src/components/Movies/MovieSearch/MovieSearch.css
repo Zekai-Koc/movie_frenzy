@@ -2,9 +2,10 @@
    display: flex;
    align-items: center;
    justify-content: right;
+   /* border: 1px solid red; */
 }
 
-.container-movie-search input {
+.container-movie-search-input {
    font-size: 18px;
    padding: 10px;
    border: 1px solid #ccc;
@@ -12,7 +13,7 @@
    margin: 0 5px;
 }
 
-.container-movie-search button {
+.container-movie-search-button {
    font-size: 18px;
    padding: 10px 20px;
    background-color: #007bff;
@@ -23,10 +24,10 @@
    margin-right: 10px;
 }
 
-.container-movie-search h3 {
+/* .container-movie-search h3 {
    margin: 0;
    padding: 0;
-}
+} */
 
 @media (max-width: 900px) {
    .container-movie-search input {

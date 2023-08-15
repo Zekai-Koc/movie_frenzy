@@ -23,11 +23,12 @@ const MovieSearch = () => {
       >
          <form onSubmit={onSubmitHandler}>
             <input
+               className="container-movie-search-input"
                placeholder="Movie Name..."
                value={searchText}
                onChange={handleChange}
             />
-            <button>Search</button>
+            <button className="container-movie-search-button">Search</button>
          </form>
       </div>
    );
