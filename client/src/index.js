@@ -1,5 +1,5 @@
 //
-// https://64d7a7019f1f931154d74762--moviefrenzy.netlify.app/
+// https://64db327de4f0ac382d2cd63a--moviefrenzy.netlify.app/
 //
 
 import React from "react";
